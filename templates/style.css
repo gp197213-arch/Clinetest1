@@ -1,0 +1,48 @@
+/* Современный чистый стиль */
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    /* Фоновое изображение */
+    background: url('../images/fon.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.container {
+    /* полупрозрачный фон */
+    background: rgba(255, 255, 255, 0.85);
+    max-width: 800px;
+    width: 100%;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #222222;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555555;
+    margin-top: 0.5rem;
+}
