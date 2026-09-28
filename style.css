@@ -12,7 +12,7 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.6;
     /* Фоновое изображение */
-    background: url('../images/7f08e850349447.58d2174d2e6b9.png') no-repeat center center fixed;
+    background: url('images/7f08e850349447.58d2174d2e6b9.png') no-repeat center center fixed;
     background-size: cover;
     color: #333333;
     display: flex;
